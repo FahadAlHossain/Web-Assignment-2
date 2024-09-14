@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    color: white;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #2a2a2a;
+}
+
+.logo a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.logo span {
+    color: #DA7426;
+}
+
+.nav-info {
+    display: flex;
+    gap: 180px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+}
+
+.info-item .icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+
+.social-icons a {
+    margin-left: 15px;
+}
+
+.social-icons img {
+    width: 25px;
+    height: 25px;
+}
+
+.bottom-bar {
+    display: flex;
+    justify-content: space-around;
+    gap: 120px;
+    padding: 25px 30px;
+    background-color: #2a2a2a;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 80px;
+}
+
+.nav-links li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.nav-links .icon {
+    display: flex;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+}
+.nav-links span{
+    font-weight: 500;
+}
+.user-icons a {
+    text-decoration: none;
+    color: white;
+}
+
+.service span{
+    color: #DA7426;
+}
+.service h1{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+    margin: 30px 100px;
+}
+
+.card {
+    border-radius: 8px;
+    padding: 20px;
+    width: 25%;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 25px;
+}
+
+.card h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    color: #555;
+    font-size: 20px;
+}
+
+.read-more-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #DA7426;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
